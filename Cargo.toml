@@ -1,0 +1,13 @@
+[package]
+name = "go_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+poem = "3.1.5"
+log = "0.4.22"
+tokio = { version = "1.41.1", features = ["full"] }
+env_logger = "0.11.5"
+serde = { version = "1.0.215", features = ["derive"] }
+async-trait = "0.1"
+urlencoding = "2.1"
